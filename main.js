@@ -28,7 +28,7 @@ const oAuth2Client = new OAuth2(
 )
 // Call the setCredentials method on our oAuth2Client instance and set our refresh token.
 oAuth2Client.setCredentials({
-  refresh_token: '1//046o-Hz0he8vfCgYIARAAGAQSNwF-L9Irk4HDaZEpzrq_EWf-pzjSMInESH0zirrAOhQeSdNJts4BmVz-jXEWEjzvYUC1Wz2zE_4',
+  refresh_token: **REFRESH TOEN!!!!**,
 })
 // Create a new calender instance.
 const calendar = google.calendar({ version: 'v3', auth: oAuth2Client })
@@ -38,8 +38,8 @@ const calendar = google.calendar({ version: 'v3', auth: oAuth2Client })
 
 //Notion Integration
 const { Client } = require('@notionhq/client') 
-const notion = new Client({ auth: 'secret_CBBUqsFrlk12YahiwM2wlr1Zb0lcATqftWaHu5QhM7Q' })
-const databaseId = '19d92fb257954adaa56a60722f2290aa'
+const notion = new Client({ auth: 'NOTION SECRET!!!!' })
+const databaseId = 'DATABASE ID'
 
 
 const dbQuerySimple = require('@eliwimmer/notion-api-tools')
