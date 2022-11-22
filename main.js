@@ -1,8 +1,5 @@
 /*
 Developed by Arwa Lucky 2 days before 25th birthday,, 14 July 2022
-This will cure my ADHD
-
-
 
 */
 
