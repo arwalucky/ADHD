@@ -10,6 +10,29 @@ My goal with this browser application was to have all my regularly used applicat
 ## GUI
 
 ![image](/docu/ss.png)
+
+
+## Functionality
+
+### Toggl 
+
+Toggl timers are preset timers that send a start request to toggl and run until 'Stop' is clicked
+
+#### Stop and panic 
+
+Stops any running timer and adds a 5 second panic timer when clicked
+
+### Notion
+
+Adds tasks to the connected Notion database
+
+
+### Google Calendar
+
+Adds events to selected Google Calendar 
+
+
+
 ****
 
 
