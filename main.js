@@ -12,7 +12,7 @@ const port = 3000
 
 //Toggl integration
 var TogglClient = require('toggl-api');
-var toggl = new TogglClient({ apiToken: '172bb1241ee257cb8b8e92f6ca303f87' });
+var toggl = new TogglClient({ apiToken: 'SECRET TOKEN GOES HEREEE' });
 const bodyParser = require('body-parser');
 
 
@@ -24,8 +24,7 @@ const { google } = require('googleapis')
 const { OAuth2 } = google.auth
 // Create a new instance of oAuth and set our Client ID & Client Secret.
 const oAuth2Client = new OAuth2(
-  '675907817815-t9r0hn11i5ios5g5undprbe95g9obb80.apps.googleusercontent.com',
-  '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'
+ //OAUTH GOES HERE '
 )
 // Call the setCredentials method on our oAuth2Client instance and set our refresh token.
 oAuth2Client.setCredentials({
