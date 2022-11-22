@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Toggl</title>
+    <title>ADHD | Arwa Lucky</title>
     <link href="styles/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +13,14 @@
 </head>
 
 <body>
+<div style="display: grid;"> 
+    <h1>This will Cure ADHD</h1>    
+  <%= data %> 
+</div>
+   
+
+
     <div style="width: 50vw;">
-
-
-
 
         <form action="start" method="post">
 
@@ -51,6 +55,11 @@
                     <p>WUG</p>
                     12.09.22
                 </button>
+                <button name="foo" value="bitch" style="background-color: rgb(239 0 255);">
+                    <i class="fa fa-circle" style="font-size: 2.5em;" aria-hidden="true"></i>
+                    <p>Bitch fit</p>
+
+                </button>
 
             </div>
             <hr style="height:3px;border-width:0;color:gray;background-color:black; margin: 50px;">
@@ -63,41 +72,72 @@
                 </button>
 
 
-
             </div>
         </form>
         <hr style="height:3px;border-width:0;color:gray;background-color:black; margin: 50px;">
 
 
-        <form action="stop" method="get">
-            <button name="foo" value="PANIC">
-                <p>SOPSPSSs</p>
+
+        <form action="notion" method="post">
+            <input type="text" name="task">
+            <button style="height: 70px; background-color: yellow;">
+                <p>Add</p>
             </button>
+
         </form>
+
     </div>
 
-    <div style="width: 50%;">
 
-        <div style="width: 100%">
+
+
+
+
+
+    <div style="width: 50%; float: right;">
+
+        <div style="text-align: right;">
+            <h1>Calendar</h1>
+            <form style="text-align: right;" name="calendar" action="addEvent" method="post">
+                <div style="display: inline-grid; justify-items: right;">
+                    <input type="text" name="eventName" required>
+                    <input type="datetime-local" name="eventTime" required>
+                    <button style="float: right; height: 70px; background-color: yellow;" name="calendar"
+                        onsubmit="submitForm()" value="PANIC">
+                        <p>Add</p>
+                    </button>
+
+                </div>
+                <script>
+                    function submitForm() {
+                        document.calendar.submit();
+                        document.calendar.reset();
+                    }
+                </script>
+            </form>
+
+
+        </div>
+
+        <div style="position: fixed; bottom: 50px; right: 40px">
             <form action="university" method="post">
                 <button class="panic" name="foo" value="PANIC">
                     <p>STOP AND PANIC</p>
                 </button>
             </form>
-        </div>
 
-        <div>
-            <form action="">
-                <input type="text" name="" id="">
+            <form action="stop" method="get">
+                <button class="stop" name="foo" value="PANIC">
+                    <p>Stop</p>
+                </button>
             </form>
+
+
         </div>
-
-
 
     </div>
 
 </body>
-
 
 
 
