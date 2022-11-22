@@ -7,7 +7,9 @@ This browser application runs preset times using the Toggl API, allows user to c
 My goal with this browser application was to have all my regularly used applications in one place and accessible instead of jumping tab to tab. 
 
 
-## Example
+## GUI
 
 ![image](/docu/ss.png)
 ****
+
+
